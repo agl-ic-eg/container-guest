@@ -1,5 +1,7 @@
 # Container guest repo
 
+This image is based on yocto thud release.  
+
 ## Building the BSP for M3 Starter Kit
 
 ### Clone build tree.
@@ -15,9 +17,8 @@ Move to build directry
 You should see the following files:
 
 	$ ls -1 $WORK/proprietary/*.zip  
-	R-Car_Gen3_Series_Evaluation_Software_Package_for_Linux-20190507.zip  
-	R-Car_Gen3_Series_Evaluation_Software_Package_of_Linux_Drivers-20190507.zip  
-
+	R-Car_Gen3_Series_Evaluation_Software_Package_for_Linux-weston5-20190802.zip  
+	R-Car_Gen3_Series_Evaluation_Software_Package_of_Linux_Drivers-weston5-20190802.zip  
 
 ### Populate meta-renesas with proprietary software packages.
 
@@ -53,3 +54,8 @@ You should see the following files:
 
 	bitbake core-image-weston  
 
+
+
+## Building the BSP for QEMU
+
+TBD
