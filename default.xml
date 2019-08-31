@@ -16,7 +16,7 @@
 	<project path="meta-linaro" name="meta-linaro" remote="linaro" revision="75dfb67bbb14a70cd47afda9726e2e1c76731885" />
 
 	<!-- function Layers -->
-	<project path="meta-container-guest" name="meta-container-guest" remote="agl-ic-eg" revision="master" />
+	<project path="meta-container-guest" name="meta-container-guest" remote="agl-ic-eg" revision="rocko" />
 
 	<!-- distro Layers -->
 

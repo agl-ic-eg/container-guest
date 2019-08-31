@@ -1,5 +1,8 @@
 # Container guest repo
 
+This image is based on rocko.
+
+
 ## Building the BSP for M3 Starter Kit
 
 ### Clone build tree.
@@ -7,7 +10,7 @@
 Move to build directry
 
 	export WORK=`pwd`  
-	repo init -u https://github.com/agl-ic-eg/container-guest.git  
+	repo init -u https://github.com/agl-ic-eg/container-guest.git -b rocko  
 	repo sync  
 
 ### Download proprietary driver modules to $WORK/proprietary folder.
